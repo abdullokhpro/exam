@@ -1,0 +1,59 @@
+#forms {
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.forms__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+ input[type="text"], input[type="tel"], textarea, select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    padding-left: 20px;
+    border: 1px solid  #E0E0E0;
+    resize: none;
+    background-color: transparent;
+   
+}
+
+#email-ru {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    padding-left: 20px;
+    border: 1px solid #E0E0E0;
+    resize: none;
+    background-color: transparent;
+}
+
+#name, #email-ru, #phone, #comment, #option {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    color: #828282;
+}
+
+.forms__btn {
+    padding: 15px 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: var(--light-text-color, #FFF);
+    border: none;
+    border-radius: 5px;
+    background: var(--secondar-color);
+    transition: 0.3s;
+}
+
+.forms__btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
